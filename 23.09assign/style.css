@@ -34,6 +34,15 @@ nav > ul {
     width: 80.5rem;
     justify-content: space-between;
     opacity: 0.2;
+    font-size: 1.4rem;
+}
+
+main {
+    display: flex;
+    gap: 3.2rem;
+    width: 144.5rem;
+    height: 135.3rem;
+    margin: 4rem 4rem 12rem 4rem;
 }
 
 /* 메인에 있는 카드 크기 */
@@ -119,4 +128,57 @@ nav > ul {
     display: flex;
     width: 66.4rem;
     justify-content: space-between;
+}
+
+/* aside 부분 */
+aside {
+    display: flex;
+    flex-direction: column;
+    height: 119.8rem;
+    width: 31.6rem;
+    justify-content: space-between;
+}
+
+#redone {
+    display: flex;
+    flex-direction: column;
+    width: 31.6rem;
+    height: 58.1rem;
+    background-color: #ff565c;
+    color: white;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#title {
+    width: 26.3rem;
+    height: 24.5rem;
+    font-size: 3.2rem;
+    line-height: 4.9rem;
+    letter-spacing: -0.047rem;
+    text-transform: uppercase;
+}
+
+#mainText {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.8rem;
+    line-height: 3rem;
+    width: 25.2rem;
+    height: 15rem;
+}
+
+#readMore {
+    width: 21rem;
+    height: 6rem;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.6rem;
+    letter-spacing: 0.08rem;
+    text-transform: uppercase;
+    background-color: #ff565c;
+    margin-top: 3rem;
+    color: white;
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    border-left: 1px solid rgba(255, 255, 255, 0.3);
+    border-right: 1px solid rgba(255, 255, 255, 0.3);
+    border-bottom: 2px solid white;
 }
