@@ -4,37 +4,154 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link href="style.css" rel="stylesheet" type="text/css" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Oswald:wght@500&family=Yeon+Sung&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
+            rel="stylesheet"
+        />
         <title>202309Assignment</title>
     </head>
     <body>
         <header>
-            <img src="./Logo.svg" id="Logo" />
-            <nav>
-                <ul>
-                    <li>TECHNOLOGY</li>
-                    <li>IDEAS</li>
-                    <li>LEADERSHIP</li>
-                    <li>VIDEO</li>
-                    <li>NEWS</li>
-                    <li>FINANCE</li>
-                    <li>ENTERTAINMENT</li>
-                </ul>
-            </nav>
-            <img src="./Menu icon.png" id="Menu" />
+            <div class="logoAndNav">
+                <img src="./Logo.svg" class="Logo" alt="Logo" />
+                <nav id="headerNav">
+                    <ul>
+                        <li>TECHNOLOGY</li>
+                        <li>IDEAS</li>
+                        <li>LEADERSHIP</li>
+                        <li>VIDEO</li>
+                        <li>NEWS</li>
+                        <li>FINANCE</li>
+                        <li>ENTERTAINMENT</li>
+                    </ul>
+                </nav>
+            </div>
+            <img src="./Hanburger.svg" id="Menu" alt="hamburgerMenu" />
         </header>
         <main>
-            <section>
-                <article id="Finance"></article>
-                <article id="stories"></article>
-                <article id="entertainment"></article>
-                <article id="smallthings"></article>
-                <aside>
-                    <article id="smallone"></article>
-                    <article id="redone"></article>
-                    <article id="technology"></article>
-                </aside>
+            <section id="mainSection">
+                <article id="Finance">
+                    <img
+                        src="./mainImg/Card.png"
+                        class="mainBigCard"
+                        alt="Finance"
+                    />
+                </article>
+                <section id="mainSection2">
+                    <article id="FeaturedStories">
+                        <h1>FEATURED STORIES</h1>
+                        <ol class="StoriesList">
+                            <li>
+                                <h2>1</h2>
+                                <p>
+                                    Compare Prices: Find The Best Computer
+                                    Accessory
+                                </p>
+                            </li>
+                            <li>
+                                <h2>2</h2>
+                                <p>Why You Should Use External IT Support</p>
+                            </li>
+                            <li>
+                                <h2>3</h2>
+                                <p>Why You Should Use In-House IT Support</p>
+                            </li>
+                            <li>
+                                <h2>4</h2>
+                                <p>Choosing The Best Audio Player Software</p>
+                            </li>
+                            <li>
+                                <h2>5</h2>
+                                <p>Addiction When Gambling Becomes A Problem</p>
+                            </li>
+                        </ol>
+                    </article>
+                    <article id="ThreeCards">
+                        <div id="entertainment">
+                            <img
+                                class="secondBigCard"
+                                src="./mainImg/EntertainmentCard.png"
+                                alt="card2"
+                            />
+                        </div>
+                        <div id="smallthings">
+                            <img
+                                src="./mainImg/SmallCard1.png"
+                                alt="smallcard1"
+                                class="thirdBigCards"
+                            />
+                            <img
+                                src="./mainImg/SmallCard2.png"
+                                alt="SmallCard2"
+                                class="thirdBigCards"
+                            />
+                        </div>
+                    </article>
+                </section>
             </section>
+            <aside>
+                <article id="smallone">
+                    <img
+                        src="./mainImg/SmallCard3.png"
+                        alt="SmallCard3"
+                        class="thirdBigCards"
+                    />
+                </article>
+                <article id="redone">
+                    <h1 id="title">
+                        This tie brand is bucking the retail apocalypse with a
+                        massive store expansion
+                    </h1>
+                    <div>
+                        <p id="mainText">
+                            The universe is constantly changing, moving. Some
+                            would say it’s a “living” thing because you never
+                            know what you are going to see on any given night.
+                        </p>
+                        <button id="readMore">READ MORE</button>
+                    </div>
+                </article>
+                <article id="technology">
+                    <img
+                        src="./mainImg/SmallCard4.png"
+                        alt="SmallCard4"
+                        class="thirdBigCards"
+                    />
+                </article>
+            </aside>
         </main>
-        <footer></footer>
+        <footer>
+            <div id="footerLogo">
+                <img src="./FooterLogo.png" class="Logo" alt="logo" />
+                <img src="./footerText.png" id="footerText" alt="footerText" />
+            </div>
+            <nav id="footerNav">
+                <ul>
+                    <li>
+                        <h3>TECHNOLOGY</h3>
+                        <h3>IDEAS</h3>
+                    </li>
+                    <li>
+                        <h3>LEADERSHIP</h3>
+                        <h3>VIDEO</h3>
+                    </li>
+                    <li>
+                        <h3>NEWS</h3>
+                        <h3>FINANCE</h3>
+                    </li>
+                    <li>
+                        <h3>ENTERTAINMENT</h3>
+                    </li>
+                </ul>
+            </nav>
+            <div id="socialThings">
+                <img src="./mainImg/Social.png" alt="follow" id="social" />
+                <img src="./mainImg/Form.png" alt="emailForm" id="email" />
+            </div>
+        </footer>
     </body>
 </html>
