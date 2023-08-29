@@ -1,0 +1,16 @@
+@import 'reset.css';
+
+body {
+    width: 144.5rem;
+    height: 160.3rem;
+}
+header {
+    display: flex;
+    width: 144rem;
+    background-color: red;
+}
+
+header > #Logo {
+    width: 5.5rem;
+    height: 3rem;
+}
